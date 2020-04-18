@@ -43,10 +43,13 @@ h2 {
     border-radius: 10px;
     height: 200px;
     margin-right: 5px;
-    margin-bottom: 89px;
 
+  margin-bottom: 89px;
 }
 
+.separate {
+  margin-bottom: 89px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
