@@ -44,7 +44,7 @@ h2 {
     height: 200px;
     margin-right: 5px;
 
-  margin-bottom: 89px;
+    margin-bottom: 100px;
 }
 
 .separate {
@@ -105,7 +105,7 @@ h2 {
     #container1 {
      margin-left: 0%;
     }
-    /* .datamap{
+    .datamap{
      zoom: 130%;
-    } */
+    }
 }
