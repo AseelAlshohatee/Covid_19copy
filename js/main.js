@@ -99,7 +99,7 @@ var map = new Datamap({
     element: document.getElementById('container1'),
     projection: 'mercator',
     height: 233,
-    width: 233,
+    width:233,
     fills: {
         defaultFill: '#580009'
     },
@@ -126,11 +126,11 @@ var map = new Datamap({
 
             return ['<div class="hoverinfo"><strong>',
                 geo.properties.name,
-                `<ul> 
+                `<ul>
                 <li>New: ${numToCommas((country.cases["new"] !== null) ? country.cases["new"] : 0)}</li>
                 <li>Active: ${numToCommas((country.cases["active"] !== null) ? country.cases["active"] : 0)}</li>
                 <li>Critical: ${numToCommas((country.cases["critical"] !== null) ? country.cases["critical"] : 0)}</li>
-                <li>Recovered: ${numToCommas((country.cases["recovered"] !== null) ? country.cases["recovered"] : 0)}</li>
+                <li>Recovered: ${numToCommas((country.cases["recovered"] !== null) ? country.cases["recovered"] : 0) }</li>
                 <li>New deaths: ${numToCommas((country.deaths["new"] !== null) ? country.deaths["new"] : 0)}</li>
                 <li>total deaths: ${ numToCommas((country.deaths["total"] !== null) ? country.deaths["total"] : 0)}</li>
                  </ul>`,
